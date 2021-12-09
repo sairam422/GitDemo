@@ -11,7 +11,7 @@ public class ArmstrongNumber {
 			calculated+=(rem*rem*rem);
 			input=input/10;
 		}
-		
+		System.out.println("Checking the Armstrong Number");
 		if(calculated==original)
 		{
 			System.out.println(original+" is an Armstrong number");
